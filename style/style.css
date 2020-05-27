@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+body{
+    box-sizing: border-box;
+}
+.navbar .logo {
+    height: 100px;
+    position: relative;
+    left: 2%;
+}
+.navbar .navbar-nav{
+    position: relative;
+    left: 15%;
+    width: 86%;
+}
+.navbar .navbar-nav .nav-item{
+    margin-left: 20px;
+    color: black !important;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.navbar .navbar-nav .nav-item:hover{
+    margin-left: 20px;
+    color: black !important;
+}
+.navbar .add-to-card {
+    position: relative;
+    left: 30px;
+}
+@media(max-width: 767px){
+    .navbar .navbar-nav{
+        left: 5%;
+        width: 64%;
+    }  
+    .navbar .navbar-nav .nav-item{
+        margin-left: 14px;
+        border-bottom: 1px solid;
+        width: 143%;
+        font-size: larger;
+    }
+    .navbar .add-to-card{
+        text-align: center;
+        position: relative;
+        left: 25%;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .navbar .navbar-nav{
+        left: 5%;
+        width: 64%;
+    }  
+    .navbar .navbar-nav .nav-item{
+        margin-left: 14px;
+        border-bottom: 1px solid;
+        width: 143%;
+        font-size: larger;
+    }
+    .navbar .add-to-card{
+        text-align: center;
+        position: relative;
+        left: 25%;
+    }
+}
+@media(max-width: 1382px) and (min-width: 992px){
+    .navbar .navbar-nav{
+        left: 2%;
+        width: 98%;
+        font-size: 13px;
+        top: 10px;
+    }  
+    .navbar .navbar-nav .nav-item{
+        font-size: larger;
+        padding: 0px 0px !important;
+    }
+    .navbar .add-to-card{
+        /* text-align: center; */
+        position: relative;
+        left: 2%;
+        top: -5px;
+    }
+    .navbar-collapse{      
+        width: 60%;
+    }
+    .navbar .dropdown{
+        position: relative;
+        top: -8px;
+    }
+}
+
+/* start offre la meilleure qualité */
+
+    .offre{
+        background: url('../img/2.jpg') no-repeat top center;
+        background-size: cover;
+        min-height: 760px;
+        position: relative;
+        background-attachment: fixed;
+    }
+    .offre .overlay{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100% !important;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.38'%3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23180d1c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23261431' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23351947' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23451e5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+        color: white;
+    }
+    .offre .row{
+        width: 90%;
+    }
+    .offre .live-iptv-text{
+        font-size: 65px;
+        text-align: center;
+        position: relative;
+        top: 22%;
+        font-weight: 600;
+        font-family: 'Patrick Hand', cursive;
+        width: 100%;
+    }
+    .offre .NOTRE-QUALITÉ{
+        position: relative;
+        font-size: 39px;
+        text-align: center;
+        top: 29%;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .offre .my-btn{
+        position: relative;
+        top: 30%;
+        left: 15%;
+    }
+    .my-btn .btn{
+        width: 35%;
+    }
+    .my-btn .btn:first-of-type{
+        background-color: #46245C;
+        color: white;
+    }
+    .svg1{
+        width: 68%;
+        position: relative;
+        left: 18%;
+        top: 28%;
+    }
+    .offre .all-text{
+        font-size: 50px;
+        z-index: 1;
+        width: 20%;
+        position: relative;
+        top: 52%;
+        left: 40%;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .offre .blomb-with-text{
+        position: relative;
+        top: -56px;
+    }
+    @media(max-width:990px){
+        .offre{
+            min-height: 1275px;
+        } 
+    }
+/* end offre la meilleure qualité */
+
+/* start commander des maintenant */
+
+.commander{
+    padding: 23px 0;
+    background: linear-gradient(144deg, rgba(245,243,243,1) 7%, rgba(87,255,0,1) 35%, rgba(70,36,92,1) 100%);
+}
+.commander .container{
+    color: #46245C;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+}
+.commander .container > p{
+    padding: 3% 0%;
+}
+.commander h1{
+    font-size: 60px;
+}
+.commander .container > p:last-of-type{
+    font-weight: bolder;
+}
+.commander .container .btn{
+    width: 50%;
+    font-size: 40px;
+}
+
+/* end commander des maintenant */
+
+/* start Qui sommes nous ? */
+
+
+.Qui-sommes-nous img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 22px 18px 21px 6px black;
+}
+
+.Qui-sommes-nous{
+    padding: 8% 0%;
+    font-family: 'Patrick Hand', cursive;
+}
+.Qui-sommes-nous .Mycontent{
+    padding-top: 8%;
+}
+.Qui-sommes-nous .Mycontent p{
+    padding-bottom: 5%;
+    font-size: 25px;
+}
+.Qui-sommes-nous .Mycontent button{
+    width: 70%;
+    font-size: 50px;
+}
+.Qui-sommes-nous h1{
+    font-size: 78px;
+    text-shadow: 10px 10px 7px;
+}
+.Qui-sommes-nous .parag{
+    font-size: 21px;
+}
+
+/* end Qui sommes nous ? */
+
+/* start pricing table */
+
+
+.pricingTable{
+    color: #454747;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .pricingTable .pricingTable-header{
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .pricingTable .title{
+    background: linear-gradient(to right, #e2b824,#c16807);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    margin: 0 -15px;
+    border-radius: 50px;
+    box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+  }
+  .pricingTable .price-value{
+    background: linear-gradient(to right,#e2b824,#c16807);
+    width: 200px;
+    height: 200px;
+    padding: 45px 20px 0;
+    border-radius: 50%;
+    margin: 0 auto -65px;
+  }
+  .pricingTable .price-value .amount{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .pricingTable .price-value .duration{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: block;
+  }
+  .pricingTable .pricing-content{
+    background: #fff;
+    padding: 25px 15px;
+    margin: -15px 0 0;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+  }
+  .pricingTable .pricing-content ul{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+  }
+  .pricingTable .pricing-content ul li{
+    font-size: 15px;
+    line-height: 45px;
+    text-transform: uppercase;
+    padding: 0 0 0 30px;
+    border-bottom: 2px solid #e7e7e7;
+    position: relative;
+  }
+  .pricingTable .pricing-content ul li:last-child{ border-bottom: none; }
+  .pricingTable .pricing-content ul li:before{
+    content: "\f00c";
+    color: #c16807;
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .pricingTable .pricing-content li.disable:before{
+    color: #c16807;
+    content: "\f00c";
+  }
+  .pricingTable .pricingTable-signup{
+    background: linear-gradient(to right,#e2b824,#c16807);
+    padding: 15px 0;
+    margin: 0 20px;
+    border-radius: 0 0 30px 30px;
+  }
+  .pricingTable .pricingTable-signup a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+  .pricingTable .pricingTable-signup a:hover{
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+  }
+  
+  
+  .pricingTable.pink .pricingTable-header .title,
+  .pricingTable.pink .price-value,
+  .pricingTable.pink .pricingTable-signup{
+    background: linear-gradient(to right,#ef52d7,#a40a8c);
+  }
+  .pricingTable.pink .pricing-content ul li:before{ color: #a40a8c; 
+  }
+  .pricingTable.pink .pricing-content ul li.disable:before{ color: #a40a8c; 
+  }
+  
+  
+  .pricingTable.blue .pricingTable-header .title,
+  .pricingTable.blue .price-value,
+  .pricingTable.blue .pricingTable-signup{
+    background: linear-gradient(to right,#00a2f3,#0073b1);
+  }
+  .pricingTable.blue .pricing-content ul li:before{ color: #0073b1; 
+  }
+  .pricingTable.blue .pricing-content ul li.disable:before{ color: #0073b1; 
+  }
+  @media only screen and (max-width: 990px){
+    .pricingTable{
+      margin: 0 15px 40px; 
+    }
+  }
+  
+  .pricingTable.violé .pricingTable-header .title,
+  .pricingTable.violé .price-value,
+  .pricingTable.violé .pricingTable-signup{
+    background: linear-gradient(to right,rgb(251, 255, 0),#57ff00);
+  }
+  .pricingTable.violé .pricing-content ul li:before{ color: #57ff00; 
+  }
+  .pricingTable.violé .pricing-content ul li.disable:before{ color: #57ff00; 
+  }
+  @media only screen and (max-width: 990px){
+    .pricingTable{
+      margin: 0 15px 40px; 
+    }
+  }
+
+  .pricing-table .POURQUOI{
+    text-align: center !important;
+    color: darkgray;
+  }
+  .pricing-table .borderB{
+    width: 55%;
+    border-bottom-style: dashed;
+    position: relative;
+    left: 23%;
+    padding: 1% 0%;
+  }
+/* end pricing table */
+
+
+/* START POURQUOI CHOISIR */
+
+.POURQUOI-CHOISIR{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 5% 0%;
+}
+.POURQUOI-CHOISIR .card-title{
+    font-weight: bolder;
+    padding: 10% 0;
+    color: #46245C;
+    font-size: 27px;
+}
+.POURQUOI-CHOISIR .card{
+    margin: 3% auto;
+    height: 450px;
+}
+
+/* END POURQUOI CHOISIR */
+
+
+/* start Nos packs Normal */
+
+.pricing-cards{
+    padding: 4% 0%;
+}
+.pricing-cards .H1{
+    padding-bottom: 3%;
+    font-size: 70px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.pricing-cards .pricing-card{
+    color: #fff;
+    background: linear-gradient(to bottom,#e2b824,#e2b824,#c16807);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px 0 0;
+    margin: 0 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px -5px rgba(0,0,0,0.4);
+  }
+  .pricing-cards .pricing-card .pricingTable-header{
+    background: #e2b824;
+    padding: 15px 15px;
+    margin: 0 -15px 30px;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.3);
+  }
+  .pricing-cards .pricing-card .title{
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0;
+  }
+  .pricing-cards .pricing-card .price-value{ margin: 0 0 20px; }
+  .pricing-cards .pricing-card .price-value .amount{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 40px;
+    display: inline-block;
+  }
+  .pricing-cards .pricing-card .price-value .duration{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    transform: translateY(-3px);
+  }
+  .pricing-cards .pricing-card .pricing-content{
+    background: linear-gradient(to bottom,#151515 71%,transparent 81%);
+    padding: 80px 30px 15px;
+    border-radius: 100% 100% 0 0;
+  }
+  .pricing-cards .pricing-card .pricing-content ul{
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 50px;
+    list-style: none;
+  }
+  .pricing-cards .pricing-card .pricing-content ul li{
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 0 0 0 30px;
+    margin: 0 0 12px;
+    position: relative;
+  }
+  .pricing-cards .pricing-card .pricing-content ul li.disable{ opacity: 0.5; }
+  .pricing-cards .pricing-card .pricing-content ul li:before{
+    content: "\f00c";
+    color: #07eacc;
+    font-size: 18px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .pricing-cards .pricing-card .pricing-content ul li.disable:before{
+    content: "\f00d";
+    left: 3px;
+  }
+  .pricing-cards .pricing-card .pricingTable-signup a{
+    color: #fff;
+    background: #151515;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 6px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  .pricing-cards .pricing-card .pricingTable-signup a:hover{
+    letter-spacing: 2px;
+    box-shadow: 0 0 20px -5px #151515;
+  }
+  .pricing-cards .pricing-card.purple{ background: linear-gradient(to bottom,#00a2f3 ,#00a2f3,#0073b1); }
+  .pricing-cards .pricing-card.purple .pricingTable-header{ background: #0073b1; }
+  .pricing-cards .pricing-card.purple .pricing-content ul li:before{ color: #0073b1; }
+  .pricing-cards .pricing-card.pink{ background: linear-gradient(to bottom,#955063,#955063,#ff59a6); }
+  .pricing-cards .pricing-card.pink .pricingTable-header{ background: #ff59a6; }
+  .pricing-cards .pricing-card.pink .pricing-content ul li:before{ color: #ff59a6; }
+  @media only screen and (max-width: 990px){
+    .pricing-cards .pricing-card{ margin: 0 15px 40px; }
+  }
+  @media only screen and (max-width: 576px){
+    .pricing-cards .pricing-card .pricing-content ul li{ font-size: 14px; }
+  }
+
+  /* button */
+  
+  .pricing-cards .btn{
+    color: #fff;
+    background: linear-gradient(to right, #DA4453, #89216B);
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    margin: 0 0 0 25px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    transform: perspective(500px) rotateY(-15deg);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease;
+  }
+  .pricing-cards .btn:hover{
+    color: #fff;
+    text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+    transform: perspective(500px) rotateY(15deg);
+  }
+  .pricing-cards .btn:before{
+    content: "";
+    background: linear-gradient(to right, transparent, white, transparent);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: all 0.5s ease;
+  }
+  .pricing-cards .btn:hover:before{ left: 100%; }
+  @media only screen and (max-width: 767px){
+    .btn{ margin-bottom: 20px; }
+  }
+  
+  /* button */
+
+  .test-gratuit{
+    border-bottom: dashed;
+    border-top: dashed;
+    position: relative;
+    color: gold;
+    width: 37%;
+    left: 32%;
+  }
+  .test-gratuit .btn{
+    margin: 10% 0%;
+    width: 100%;
+    font-size: 39px;
+    font-family: monospace;
+  }
+
+/* end Nos packs Normal */
+
+
+/* start final text */
+
+.final-text p{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* end final text */
+
+
+.footer{
+  padding: 4% 0;
+  background-color: ghostwhite;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+/* #46245C */
+/* #57ff00 */
+
+/* @media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){} */
